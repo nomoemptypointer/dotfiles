@@ -1,0 +1,55 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "Miracode", monospace;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.notification-center {
+  background: rgba(20, 0, 30, 0.7);
+  border: none;
+  padding: 10px;
+}
+
+.notification {
+  background: linear-gradient(135deg, rgba(97, 0, 148, 0.85), rgba(48, 0, 92, 0.85));
+  border-radius: 16px;
+  padding: 12px;
+  margin: 10px;
+  border: 2px solid rgba(62, 0, 113, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.notification .title {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.notification .body {
+  color: #dddddd;
+}
+
+.notification .button {
+  background: rgba(62, 0, 113, 0.8);
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  transition: background 0.2s;
+}
+
+.notification .button:hover {
+  background: rgba(97, 0, 148, 0.95);
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  min-height: 6px;
+  margin-top: 8px;
+}
+
+.progressbar {
+  background: rgba(200, 150, 255, 0.9);
+  border-radius: 8px;
+}

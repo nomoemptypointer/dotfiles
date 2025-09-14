@@ -1,0 +1,62 @@
+* {
+  background-color: rgba(64, 0, 96, 0.85);
+  text-color: #ffffff;
+  font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+  background-color: @background-color;
+  border: 2;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12;
+  padding: 10;
+}
+
+mainbox {
+  background-color: transparent;
+  border: 0;
+}
+
+inputbar {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 6;
+  border: 0;
+  border-radius: 8;
+}
+
+prompt {
+  background-color: transparent;
+  border: 0;
+}
+
+textbox {
+  background-color: transparent;
+  border: 0;
+}
+
+listview {
+  background-color: transparent;
+  padding: 5;
+  border: 0;
+  spacing: 6;  /* Ensures no overlap between elements */
+}
+
+element {
+  background-color: transparent;
+  border: 0;
+  padding: 4;
+}
+
+element selected {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8;
+  padding: 4;
+}
+
+element-text {
+  text-color: #ffffff;
+}
+
+element-text selected {
+  text-color: #ffb7ff;
+}

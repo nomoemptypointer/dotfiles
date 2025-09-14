@@ -1,0 +1,14 @@
+# Prevent auto-switching of profiles
+{
+  "matches": [
+    {
+      "device.name": "~bluez_card.*"
+    }
+  ],
+  "actions": {
+    "update-props": {
+      "media.session.default-profile": "a2dp-sink",
+      "media.session.ignore-profiles": ["hsp_hs", "hsp_ag", "hfp_hf", "hfp_ag"]
+    }
+  }
+}
